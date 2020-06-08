@@ -1,0 +1,59 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+	int a,b,c,d,ch;
+	printf("\n1.question");
+	printf("\n2.question");
+	printf("\n3.question");
+	printf("\n4.question");
+	printf("\n5.question");
+	printf("\n6.question");
+	printf("\n7.question");
+	printf("\n8.question");
+	printf("\nEnter your choice");
+	scanf("%d",&ch);
+	switch(ch)
+	{
+		case 1:
+			printf("\nChose the correct unary oprators in C -a)!,b)~,c)^&,d)++.\n");
+			printf("(a) a,b,d\t(b) a,b,c\t(c) b,c,d\t(d) c,d,a");
+			break;
+		case 2:
+			printf("\nIn decimal system you can convert the binary number\n1011011111000101 very easily.\n");
+		    printf("(a) yes\t(b) Hexadecimal system\t(c) octal system\t (d) Both octal and decimal");
+			break;
+		case 3:
+			printf("\nChoose the correct statement that can retrieve the\nremainder of the division 5.5 by 1.3?\n");
+			printf("(a) rem=modf(5.5%1.3)\t(b) rem=modf(5.5,1.3)\t(c) rem=fmod(5.5,1.3)\t(d) rem=f(5.5,1.3)");
+			break;	
+		case 4:
+			printf("\nwhat is the output of the following program?\n");
+			printf("#include<stdio.h>\nmain()\n{\nregister int X=5;\nint *p;\np=&x;\nx++;\nprintf("",*p);\n}\n");
+			printf("(a) compile error\t(b) 5\t(c) 6\t(d) Garbage value");
+			break;
+		case 5:
+			printf("\nFollowing is the invalid inclusion of a file to the current program. Identify it?\n");
+			printf("(a) #include<file>\t(b) #include(file)\t(c) #include<file\t(d) All of the above are invalid ");
+			 break;
+		case 6:
+			 printf("\npoint out the error in the program\n");	
+			 printf("f(int a,int b)\n{\nint a;\na=20;\nreturn a;\n}\n");
+			 printf("(a) Missing parenthesis in return statement\n(b) The function should be defined as intf(inta,intb)\n(c) Redeclaration of a\n(d) None of the above");
+			 break;
+		case 7:
+		
+			 printf("\nAre the following two statement same?\n");
+			 printf("1.a<=20?(b=30);(c=30);\n2.(a<=20)?b:(c=30);\n");
+			 printf("(a) yes\t(b) no");
+			break;
+		case 8:
+			 printf("\nWill the expression *p=p be disallowed by the compiler?\n");
+			 printf("(a) yes\t(b) no");
+			break;
+		
+			 	
+		default:printf("\nInvalid choice");	
+		
+	}
+}
