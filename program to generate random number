@@ -1,0 +1,35 @@
+#include<stdio.h>
+#include<conio.h>
+#include<stdlib.h>
+#include<time.h>
+void printrandoms(int lower,int upper,int count)
+{
+int i,j,a[100];
+
+for (i=0; i <count; i++)
+{
+	
+	for(j=1;j<=count;j++)
+	{
+		int num=(rand()%(upper-lower+1)) + lower;
+	printf("%d\n", num);
+		a[j]=num;
+	switch(a[j])
+	{
+	
+	}
+	}
+}
+//travesing of array
+for(j=1;j<=count;j++)
+{
+	printf("%d",a[j]);
+}
+}
+int main()
+{
+	int lower = 1, upper = 10, count = 3;
+	srand(time(0));
+	printrandoms(lower, upper, count);
+	return 0;
+}
