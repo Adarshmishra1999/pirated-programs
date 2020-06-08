@@ -1,0 +1,47 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+	int a,b,result,ch;
+	printf("\n1.Addition");
+	printf("\n2.substraction");
+	printf("\n3.multipication");
+	printf("\n4.Division");
+	printf("\n5.What is capital of india ?");
+	printf("\nEnter your choice");
+	scanf("%d",&ch);
+	switch(ch)
+	{
+		case 1:
+			printf("\nEnter two values");
+			scanf("%d%d",&a,&b);
+			result=a+b;
+			printf("\nResult=%d",result);
+			break;
+		case 2:
+			printf("\nEnter two values");
+			scanf("%d%d",&a,&b);
+			result=a-b;
+			printf("\nResult=%d",result);
+			break;
+		case 3:
+			printf("\nEnter two values");
+			scanf("%d%d",&a,&b);
+			result=a*b;
+			printf("\nResult=%d",result);
+			break;	
+		case 4:
+			printf("\nEnter two values");
+			scanf("%d%d",&a,&b);
+			result=a/b;
+			printf("\nResult=%d",result);
+			break;
+		case 5:
+			printf("\nWhat is capital of india  ?\n");
+			a=printf("(a) delhi\t");
+			printf("(b) bhopal");
+			
+		default:printf("\nInvalid choice");	
+		
+	}
+}
