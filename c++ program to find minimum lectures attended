@@ -1,0 +1,21 @@
+#include<iostream>
+using namespace std;
+//function to compute minimum lecture
+int minimumLectures (int m, int n)
+int ceil(M,N)
+{
+	int ans=0;
+	//formula to compute
+	if(n<(int)ceil(0.75*m))
+	ans = (int)ceil(((0.75*m)_n)/0.25);
+	else
+	ans=0
+	return ans;
+}
+//Driver function
+int main()
+{
+	int M=9, N=1;
+	cout <<"minimumLectures"(M,N);
+	return 0;
+}
