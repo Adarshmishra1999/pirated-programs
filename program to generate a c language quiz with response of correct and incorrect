@@ -1,0 +1,526 @@
+#include<stdio.h>
+#include<conio.h>
+#include<string.h>
+int main()
+{
+	
+    int a,b,c,d,ch;
+	int id,pwd,score=0;
+//	char usid[10],pwd[10],ans;
+    int ans;
+    printf("=========================================================================================\n");
+    printf("\t\t\t\tWELCOME TO THE QUIZ\n");
+    printf("\n**Enrolment and Password should be same**\n");
+	printf("Enter Enrollment:");
+	//gets(usid);
+	scanf("%d",&id);
+	printf("\nEnter Password:");
+	scanf("%d",&pwd);
+	printf("=============================================================================================\n");
+	if(id==pwd)
+	{
+	ch=1;
+	printf("**Attempt all the questions**\n*All the questions are compulsory*\n");
+	printf("=============================================================================================\n");
+	switch(ch)
+	{
+        case 1:	
+	        printf("\n1. The correct unary oprators in C -a)!,b)~,c)^&,d)++.\n");
+			printf("(1) a,b,d\t(2) a,b,c\t(3) b,c,d\t(4) c,d,a\n");
+			printf("\nEnter your answer\n");
+			scanf("%d",&ans);
+			if(ans==1)
+			{
+				printf("\ncorrect\n");
+				score=score+1;				
+			}
+			else
+			{
+			 printf("\nincorrect\n");
+			}
+			ch++;
+		printf("----------------------------------------------------------------------------------------------------\n");
+		case 2:
+			printf("\n2. In decimal system you can convert the binary number\n1011011111000101 very easily.\n");
+		    printf("(1) yes\t(2) Hexadecimal system\t(3) octal system\t (4) Both octal and decimal\n");
+		    printf("\nEnter your answer\n");
+			scanf("%d",&ans);
+			if(ans==2)
+			{
+				printf("\ncorrect\n");
+				score=score+1;				
+			}
+			else
+			{
+			 printf("\nincorrect\n");
+			}
+			ch++;
+		printf("---------------------------------------------------------------------------------------------------\n");	
+		case 3:
+			printf("\n3. Choose the correct statement that can retrieve the\nremainder of the division 5.5 by 1.3?\n");
+			printf("(1) rem=modf(5.5%1.3)\t(2) rem=modf(5.5,1.3)\t(3) rem=fmod(5.5,1.3)\t(4) rem=f(5.5,1.3)\n");
+			printf("\nEnter your answer\n");
+			scanf("%d",&ans);
+			if(ans==3)
+			{
+				printf("\ncorrect\n");
+				score=score+1;				
+			}
+			else
+			{
+			 printf("\nincorrect\n");
+			}
+			ch++;
+		printf("----------------------------------------------------------------------------------------------------\n");		
+		case 4:
+			printf("\n4. what is the output of the following program?\n");
+			printf("#include<stdio.h>\nmain()\n{\nregister int X=5;\nint *p;\np=&x;\nx++;\nprintf("",*p);\n}\n");
+			printf("(1) compile error\t(2) 5\t(3) 6\t(4) Garbage value\n");
+			printf("\nEnter your answer\n");
+			scanf("%d",&ans);
+			if(ans==1)
+			{
+				printf("\ncorrect\n");
+				score=score+1;				
+			}
+			else
+			{
+			 printf("\nincorrect\n");
+			}
+			ch++;
+			printf("--------------------------------------------------------------------------------------------------\n");
+		case 5:
+			printf("\n5. Following is the invalid inclusion of a file to the current program. Identify it?\n");
+			printf("(1) #include<file>\t(2) #include(file)\t(3) #include<file\t(4) All of the above are invalid\n ");
+			printf("\nEnter your answer\n");
+			scanf("%d",&ans);
+			if(ans==3)
+			{
+				printf("\ncorrect\n");
+				score=score+1;				
+			}
+			else
+			{
+			 printf("\nincorrect\n");
+			}
+			ch++;
+			printf("-------------------------------------------------------------------------------------------------------\n");
+		case 6:
+			 printf("\n6. point out the error in the program\n");	
+			 printf("f(int a,int b)\n{\nint a;\na=20;\nreturn a;\n}\n");
+			 printf("(1) Missing parenthesis in return statement\n(2) The function should be defined as intf(inta,intb)\n(3) Redeclaration of a\n(4) None of the above\n");
+			 printf("\nEnter your answer\n");
+			 scanf("%d",&ans);
+			 if(ans==1)
+			{
+				printf("\ncorrect\n");
+				score=score+1;				
+			}
+			else
+			{
+			 printf("\nincorrect\n");
+			}
+			ch++;
+			printf("-------------------------------------------------------------------------------------------------------\n");
+		case 7:
+		
+			 printf("\n7. Are the following two statement same?\n");
+			 printf("1.a<=20?(b=30):(c=30);\n2.(a<=20)?b:(c=30);\n");
+			 printf("(1) yes\t(2) no\n");
+			 printf("\nEnter your answer\n");
+			scanf("%d",&ans);
+			if(ans==2)
+			{
+				printf("\ncorrect\n");
+				score=score+1;				
+			}
+			else
+			{
+			 printf("\nincorrect\n");
+			}
+			ch++;
+			printf("-------------------------------------------------------------------------------------------------------\n");
+		case 8:
+			 printf("\n8. Will the expression *p=p be disallowed by the compiler?\n");
+			 printf("(1) yes\t(2) no\n");
+			 printf("\nEnter your answer\n");
+			scanf("%d",&ans);
+			if(ans==2)
+			{
+				printf("\ncorrect\n");
+				score=score+1;				
+			}
+			else
+			{
+			 printf("\nincorrect\n");
+			}
+			ch++;
+			printf("-------------------------------------------------------------------------------------------------------\n");
+		case 9:
+			 printf("\n9. What will be output if you will compile and execute the following c code?\n");
+			 printf("#include<stdio.h>\nint main(){\ngoto abc;\nprintf("");\nreturn 0;\n}\nvoid display(){\nabc:\nprintf("");\n}\n");
+			 printf("(1) no output\t(2) compile error\t(3) main display\n");
+			 printf("\nEnter your answer\n");
+			 scanf("%d",&ans);
+			if(ans==2)
+			{
+				printf("\ncorrect\n");
+				score=score+1;				
+			}
+			else
+			{
+			 printf("\nincorrect\n");
+			}
+			ch++;
+			printf("-------------------------------------------------------------------------------------------------------\n");
+		case 10:
+		      printf("\n10. In which header file is the NULL macro defined?\n");
+			  printf("(1) stdio.h\t(2) stddef.h\t(3) stdio.h and stddef.h\t(4) math.h\n");
+			  printf("\nEnter your answer\n");
+			  scanf("%d",&ans);
+			if(ans==3)
+			{
+				printf("\ncorrect\n");
+				score=score+1;				
+			}
+			else
+			{
+			 printf("\nincorrect\n");
+			}
+			ch++;
+			printf("-------------------------------------------------------------------------------------------------------\n");
+		case 11:
+		      printf("\n11. If a variable is a pointer to a structure, then which of the following oprator is used to access data members\nof the structure throogh the point variable?\n");
+			  printf("(1) .\t(2) &\t(3) *\t(4) ->\n");
+			  printf("\nEnter your answer\n");
+			  scanf("%d",&ans);
+			if(ans==4)
+			{
+				printf("\ncorrect\n");
+				score=score+1;				
+			}
+			else
+			{
+			 printf("\nincorrect\n");
+			}
+			ch++; 
+			printf("-------------------------------------------------------------------------------------------------------\n");	
+		case 12:
+		      printf("\n12. Which of the  statement correctly declare a function that recieve a pointer to pointer to a pointer to float and returns a pointer to a pointer\nto a pointerto apointer to a float?");
+			  printf("(1) float **fun(float***);\t(2) float *fun(float**);\t(3) float fun(float***);\t(4) float ****fun(float***);\n");
+			  printf("\nEnter your answer\n");
+			  scanf("%d",&ans);
+			if(ans==4)
+			{
+				printf("\ncorrect\n");
+				score=score+1;				
+			}
+			else
+			{
+			 printf("\nincorrect\n");
+			}
+			ch++;
+			printf("-------------------------------------------------------------------------------------------------------\n");		 
+		case 13:   	
+			  printf("\n13. Which of the statement is correct about the program?\n");
+			  printf("\n#include<stdio.h>\nint main()\n{\nint i=10;\nint *j=&i;\nreturn 0;\n}\n");
+			  printf("(1) jand i are pointers are pointers to an int\n(2) i is a pointer to an int and stores address of j\n(3) j is an pointer to an int and stores address of i\n(4) j is a pointer to a pointer to an int and stores address of i\n");
+			  printf("\nEnter your answer\n");
+			  scanf("%d",&ans);
+			if(ans==3)
+			{
+				printf("\ncorrect\n");
+				score=score+1;				
+			}
+			else
+			{
+			 printf("\nincorrect\n");
+			}
+			ch++;
+			printf("-------------------------------------------------------------------------------------------------------\n");
+		case 14:
+		      printf("\n14. Which of the following statement correct about k used in the below statement?\n");
+			  printf("\n char ****k;");
+			  printf("(1) k is a pointer to a pointer to a pointer to a char\n(2) k is a pointer to a pointer to a pointer to a pointer to a char\n(3) k is a pointer to a char pointer\n(4) k is a pointer to a pointer to a char\n ");
+			  printf("\nEnter your answer\n");
+			  scanf("%d",&ans);
+			if(ans==2)
+			{
+				printf("\ncorrect\n");
+				score=score+1;				
+			}
+			else
+			{
+			 printf("\nincorrect\n");
+			}
+			ch++;
+			printf("-------------------------------------------------------------------------------------------------------\n");
+		case 15:
+			  printf("\n15. In C, if you pass an array as an argument to a function,\nWhat actually gets passed?\n");
+			  printf("(1) Value of elements in array\n(2) First element of the array\n(3) Base address of the array\n(4) Address of the last element of the array\n");
+			  printf("\nEnter your answer\n");
+			   scanf("%d",&ans);
+			if(ans==3)
+			{
+				printf("\ncorrect\n");
+				score=score+1;				
+			}
+			else
+			{
+			 printf("\nincorrect\n");
+			}
+			ch++;
+			printf("-------------------------------------------------------------------------------------------------------\n");
+		case 16:
+		      printf("\n16. Point out the error in the program?\n");
+			  printf("\nstruct emp\n{\nint ecode;\nstruct emp *e;\n};\n");
+			  printf("(1) Error: in structure declaration\t(2) Linker error\t(3) No error\t(4) None of above\n");
+			  printf("\nEnter your answer\n");
+			  scanf("%d",&ans);
+			if(ans==3)
+			{
+				printf("\ncorrect\n");
+				score=score+1;				
+			}
+			else
+			{
+			 printf("\nincorrect\n");
+			}
+			ch++;
+			printf("-------------------------------------------------------------------------------------------------------\n");
+		case 17:
+		      printf("\n17. Point out the error in the program?\n");
+			  printf("\ntypedef struct data mystruct;\nstruct data\n{\nint x;\nmystruct *b;\n};\n ");
+			  printf("(1) Error: in structure declaration\t(2) Linker error\t(3) No error\t(4) None of above\n");
+			  printf("\nEnter your answer\n");
+			  scanf("%d",&ans);
+			if(ans==3)
+			{
+				printf("\ncorrect\n");
+				score=score+1;				
+			}
+			else
+			{
+			 printf("\nincorrect\n");
+			}
+			ch++;
+			printf("-------------------------------------------------------------------------------------------------------\n");
+		case 18:
+			  printf("\n18. Which header file should be included to use function like malloc() and calloc()?\n");
+			  printf("(1) memory.h\t(2) stdlib.h\t(3) string.h\t(4) dos.h\n");
+			  printf("\nEnter your answer\n");
+			  scanf("%d",&ans);
+			if(ans==2)
+			{
+				printf("\ncorrect\n");
+				score=score+1;				
+			}
+			else
+			{
+			 printf("\nincorrect\n");
+			}
+			ch++;
+			printf("-------------------------------------------------------------------------------------------------------\n");
+		case 19:
+		      printf("\n19. What function should be used to free the memory allocated by calloc()?\n");
+			  printf("(1) dealloc();\t(2) malloc(variable_name,0)\t(3) free();\t(4) memalloc(variable_name,0)\n");
+			  printf("\nEnter your answer\n");
+			  scanf("%d",&ans);
+			if(ans==3)
+			{
+				printf("\ncorrect\n");
+				score=score+1;				
+			}
+			else
+			{
+			 printf("\nincorrect\n");
+			}
+			ch++;
+			printf("-------------------------------------------------------------------------------------------------------\n");
+		case 20:
+			  printf("\n20. What will you do to treat the constant 3.14 as a long double?\n");
+			  printf("(1) use 3.14LD\t(2) use 3.14L\t(3) use3.14DL\t(4) use 3.14LF\n");
+			  printf("\nEnter your answer\n");
+			  scanf("%d",&ans);
+			if(ans==2)
+			{
+				printf("\ncorrect\n");
+				score=score+1;				
+			}
+			else
+			{
+			 printf("\nincorrect\n");
+			}
+			ch++;
+			printf("-------------------------------------------------------------------------------------------------------\n");
+		case 21:
+		      printf("\n21. A constructor is called whenever\n");
+			  printf("(1) A class is declared\t(2) A class is used\t(3) A object is declared\t(4) An object is used\n");
+			  printf("\nEnter your answer\n");
+			   scanf("%d",&ans);
+			if(ans==3)
+			{
+				printf("\ncorrect\n");
+				score=score+1;				
+			}
+			else
+			{
+			 printf("\nincorrect\n");
+			}
+			ch++;
+			printf("-------------------------------------------------------------------------------------------------------\n");
+		case 22:
+		      printf("\n22. Which of the following statement about functions is false?\n");
+			  printf("(1) The main() function can be called recursively\n(2) Function can not return more than one value at a time\n(3) A function can have multiple return statements with diffrent return values\n(4) the maximum number of arguments a function can take is 128\n");
+			  printf("\nEnter your answer\n");
+			   scanf("%d",&ans);
+			if(ans==4)
+			{
+				printf("\ncorrect\n");
+				score=score+1;				
+			}
+			else
+			{
+			 printf("\nincorrect\n");
+			}
+			ch++;
+			printf("-------------------------------------------------------------------------------------------------------\n");
+		case 23:
+		      printf("\n23. Which function would you use to convert 1.98 to 1?\n");
+			  printf("(1) ceil()\t(2) floor()\t(3) fabs()\t(4) abs()\n");
+			  printf("\nEnter your answer\n");
+			   scanf("%d",&ans);
+			if(ans==1)
+			{
+				printf("\ncorrect\n");
+				score=score+1;				
+			}
+			else
+			{
+			 printf("\nincorrect\n");
+			}
+			ch++;
+			printf("-------------------------------------------------------------------------------------------------------\n");
+		case 24:
+			  printf("\n24. Which of the following statements about unions is incorrect?\n");
+			  printf("(1) A bit field cannot be used in a uninon\n(2) A pointer to a union exists\n(3) Union elements can be of diffrent sizes\n(4) A union can be nested into a structure\n");
+			   printf("\nEnter your answer\n");
+			   scanf("%d",&ans);
+			if(ans==1)
+			{
+				printf("\ncorrect\n");
+				score=score+1;				
+			}
+			else
+			{
+			 printf("\nincorrect\n");
+			}
+			ch++;
+			printf("-------------------------------------------------------------------------------------------------------\n");
+		case 25:
+		      printf("\n25. What is the of double data type for a 16-bit compiler?\n");
+			  printf("(1) -1.7e-328 to +1.7e-328\n(2) -1.7e-348 to +1.7e-348\n(3) -1.7e-308 to +1.7e-308\n(4) -1.7e-328 to +1.7e-328\n");
+			   printf("\nEnter your answer\n");
+			   scanf("%d",&ans);
+			if(ans==3)
+			{
+				printf("\ncorrect\n");
+				score=score+1;				
+			}
+			else
+			{
+			 printf("\nincorrect\n");
+			}
+			ch++;
+			printf("-------------------------------------------------------------------------------------------------------\n");
+		case 26:
+		      printf("\n26. If storage class is not specified for a local variable, then the default class will be auto.\n");
+			  printf("(1) True\t(2) False\t(3) Depends on the standard\t(4) None of the mentioned\n");
+			  printf("\nEnter your answer\n");
+			   scanf("%d",&ans);
+			if(ans==1)
+			{
+				printf("\ncorrect\n");
+				score=score+1;				
+			}
+			else
+			{
+			 printf("\nincorrect\n");
+			}
+			ch++;
+			printf("-------------------------------------------------------------------------------------------------------\n");
+		case 27:
+		      printf("\n27. What of the following declaration are illigal?\n");
+			  printf("(1) int a[][] = {{1,2,3},{2,3,4,5}};\n(2) int *a[] = {{1,2,3},{2,3,4,5}};\n(3) int a[4][4] = {{1,2,3,},{2,3,4,5,}};\n(4) none of the mentioned\n");
+			  printf("\nEnter your answer\n");
+			   scanf("%d",&ans);
+			if(ans==1)
+			{
+				printf("\ncorrect\n");
+				score=score+1;				
+			}
+			else
+			{
+			 printf("\nincorrect\n");
+			}
+			ch++;
+			printf("-------------------------------------------------------------------------------------------------------\n");
+		case 28:
+		      printf("\n28. Function can return enumeration constants in C?\n");
+			  printf("(1) true\t(2) false\t(3) depends on the compiler\t \(4) depends on the standard\n");
+			  printf("\nEnter your answer\n");
+			   scanf("%d",&ans);
+			if(ans==1)
+			{
+				printf("\ncorrect\n");
+				score=score+1;				
+			}
+			else
+			{
+			 printf("\nincorrect\n");
+			}
+			ch++;
+			printf("-------------------------------------------------------------------------------------------------------\n");
+		case 29:
+		      printf("\n29. Which among the following is the correct syntax to declare a static variable register?\n");
+			  printf("(1) static register a;\t(2) register static a;\t(3) Both static register a; and register static a;\t(4) We cannot use static and register together\n");
+			  printf("\nEnter your answer\n");
+			   scanf("%d",&ans);
+			if(ans==4)
+			{
+				printf("\ncorrect\n");
+				score=score+1;				
+			}
+			else
+			{
+			 printf("\nincorrect\n");
+			}
+			ch++;
+			printf("-------------------------------------------------------------------------------------------------------\n");
+		case 30:
+		      printf("\n30. What is the problem in the following c declarations?");
+			  printf("\nint func(int);\ndouble func(int);\nint func(float);\n");
+			  printf("(1) A function with same name cannot have diffrent signatures\n(2) A function with same name cannot have diffrent return types\n(3) A function with same name cannot have diffrent number of parameters\n(4) All of the mentioned\n");
+			   printf("\nEnter your answer\n");
+			   scanf("%d",&ans);
+			if(ans==4)
+			{
+				printf("\ncorrect\n");
+				score=score+1;				
+			}
+			else
+			{
+			 printf("\nincorrect\n");
+			}
+			ch++;
+			printf("-------------------------------------------------------------------------------------------------------\n");													
+			printf("\nThankyou! Your score is %d",score);		
+		default:printf("\nInvalid choice");	
+		}
+	}
+	else
+	{
+		printf("\nYou have entered wrong credentials!");
+		getch();
+	}
+}
