@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+char name[26]="Adarsh Mishra";
+char gender = 'M';
+unsigned int salary = 2000000;
+float gpa = 6.0;
+long withdraw = 1404753;
+long long balance = 995324987;
+cout << "Name :"<<name<<endl;
+cout << "Gender : " << gender << endl;
+cout << "Salary for a year : " << salary << endl;
+cout << "GPA is " << gpa << endl;
+cout << "Salary withdrawan: " << withdraw << endl;
+cout << "Total balance : " << balance << endl;
+cout<<"\n\n ---*All the values are in their type limits---*";
+return 0;
+}
