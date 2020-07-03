@@ -1,0 +1,61 @@
+<html>
+<head>
+<title>
+ Cyber Security 
+</title>
+</head>
+<body>
+<h1>
+<b> Cyber Crime </b>
+</h1>
+<img src="cyber.jpg" width="40%" height="350pixels">
+</img>
+<img src="image.jpg" width="40%" height="350pixels">
+</img>
+<h2>
+ <b> What is cyber crime ? </b>
+</h2>
+<p>
+  Cybercrime is defined as a crime in which a computer is the object of the crime (hacking, phishing, spamming)
+  or is used as a tool to commit an offense (child pornography, hate crimes). ...<br> Criminals who perform these
+  illegal activities are often referred to as hackers. Cybercrime may also be referred to as computer crime.
+</p>
+<img src="img2.jpg" width="35%" height="350pixels">
+</img>
+<img src="img3.jpg" width="25%" height="350pixels">
+</img>
+<h3>
+ <b>  How can be secure our data or information ? </b>
+</h3>
+<p>
+ 1. Making regular backups of files (backup copies should be stored in fireproof safes or in another building).<br>
+
+ 2. Protecting yourself against viruses by running anti-virus software.<br>
+
+ 3. Using a system of passwords so that access to data is restricted.<br>
+
+ 4. Safe storage of important files stored on removable disks, eg locked away in a fireproof and waterproof safe.<br>
+
+ 5. Allowing only authorised staff into certain computer areas, eg by controlling entry to these areas by means of ID cards or magnetic swipe cards.<br>
+
+ 6. Always logging off or turning terminals off and if possible locking them.<br>
+
+ 7. Avoiding accidental deletion of files by write-protecting disks.<br>
+
+ 8. Using data encryption techniques to code data so that it makes no apparent sense.<br>
+</P>
+<img src="img4.jpg" width="50%" height="500pixels">
+</img>
+<a href="https://cybercrime.gov.in/#:~:text=National%20Cyber%20Crime%20Reporting%20Portal&text=This%20portal%20is%20an%20initiative,crimes%20against%20women%20and%20children.">
+ <b> Click here to know more about cyber security. </b>
+</a>
+<h4>
+<pre>
+ CLICK THE LINK GIVEN IN UPPER RIGHT SIDE OF PICTURE.  <BR> 
+CHECK YOUR ! IP ADDRESS IN IPCHICKEN.COM<BR>
+</PRE>
+</h4>
+<iframe src="https://www.ipchicken.com/" height="75%" width="75%">
+</iframe>
+</body>
+</html>
